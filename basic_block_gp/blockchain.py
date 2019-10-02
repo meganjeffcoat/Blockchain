@@ -131,7 +131,7 @@ class Blockchain(object):
 
         prev_block = chain[0]
         current_index = 1
-        # TODO: unable to test implementation, test when possible
+        # TODO: tested positive case, need test negative
 
         while current_index < len(chain):
             block = chain[current_index]
